@@ -8,4 +8,12 @@ public class Teacher extends School {
 		return 12;
 	}
 
+	@Override
+	String name() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+	
 }
