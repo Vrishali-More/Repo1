@@ -1,17 +1,13 @@
 package OOps;
-
+//concentrate class-Student
 public class Student extends School {
-
+	
 	@Override
-	int id() {
+	int salary() {
 		// TODO Auto-generated method stub
-		return 11;
+		return 0;
 	}
 
-	@Override
-	String name() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 }
