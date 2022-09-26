@@ -13,21 +13,27 @@ public class Bus extends Vechical {
 		return 55;
 	}
 
-	@Override
+	/*@Override
 	void run() {
 		// TODO Auto-generated method stub
 		System.out.println("Vechical is Bus");
-	}
+	}*/
 	int mileage(int test) {
 		return 10;
 	}
 	int loadcapacity(int test) {
 		return 55;
 	}
+	@Override
+	public void runn() {
+		// TODO Auto-generated method stub
+		System.out.println("Bus is running");
+	}
+
 public static void main(String args[]) {
-	Vechical obj=new Bus();
-	 obj.mileage();
-	 obj.loadcapacity();
+	Running obj=new Bus();
+	// obj.mileage();
+	// obj.loadcapacity();
 }
 
 

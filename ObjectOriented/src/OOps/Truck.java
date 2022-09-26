@@ -12,12 +12,18 @@ public class Truck extends Vechical{
 		// TODO Auto-generated method stub
 		return 50;
 	}
-
 	@Override
-	void run() {
+	public void runn() {
+		// TODO Auto-generated method stub
+		System.out.println("Truck is running");
+	}
+
+
+	/*@Override
+//	void run() {
 		// TODO Auto-generated method stub
 		System.out.println("Vechical is Truck");
-	}
+	}*/
 	int mileage(int test) {
 		return 10;
 	}
@@ -25,9 +31,10 @@ public class Truck extends Vechical{
 		return 50;
 	}
 public static void main(String args[]) {
-	Vechical obj=new Truck();
-	 obj.mileage();
-	 obj.loadcapacity();
+	Running obj=new Truck();
+	obj.runn();
+	// obj.mileage();
+	 //obj.loadcapacity();
 }
 
 

@@ -12,22 +12,28 @@ public class Container extends Vechical {
 		// TODO Auto-generated method stub
 		return 89;
 	}
-
+/*
 	@Override
 	void run() {
 		// TODO Auto-generated method stub
 		System.out.println("Vechical is Container");
-	}
+	}*/
 	int mileage(int test) {
 		return 11;
 	}
 	int loadcapacity(int test) {
 		return 89;
 	}
+	@Override
+	public void runn() {
+		// TODO Auto-generated method stub
+		System.out.println(" Container is running");
+	}
+
 public static void main(String args[]) {
-	Vechical obj=new Container();
-	 obj.mileage();
-	 obj.loadcapacity();
+	Running obj=new Container();
+	 //obj.mileage();
+	 //obj.loadcapacity();
 }
 
 }
