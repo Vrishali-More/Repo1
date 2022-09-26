@@ -31,7 +31,7 @@ public class Bus extends Vechical {
 	}
 
 public static void main(String args[]) {
-	Running obj=new Bus();
+	//Running obj=new Bus();
 	// obj.mileage();
 	// obj.loadcapacity();
 }

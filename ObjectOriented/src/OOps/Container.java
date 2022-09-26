@@ -31,7 +31,7 @@ public class Container extends Vechical {
 	}
 
 public static void main(String args[]) {
-	Running obj=new Container();
+	//Running obj=new Container();
 	 //obj.mileage();
 	 //obj.loadcapacity();
 }

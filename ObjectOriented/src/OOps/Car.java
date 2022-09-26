@@ -31,7 +31,7 @@ public class Car extends Vechical {
 	}
 
  public static void main(String args[]) {
-	 Running obj=new Car();
+	// Running obj=new Car();
 	// obj.runn();
 	// obj.mileage();
 	// obj.loadcapacity();
