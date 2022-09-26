@@ -5,7 +5,7 @@ public class Container extends Vechical {
 	@Override
 	int mileage() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 11;
 	}
 	@Override
 	int loadcapacity() {
@@ -16,10 +16,10 @@ public class Container extends Vechical {
 	@Override
 	void run() {
 		// TODO Auto-generated method stub
-		
+		System.out.println("Vechical is Container");
 	}
 	int mileage(int test) {
-		return 10;
+		return 11;
 	}
 	int loadcapacity(int test) {
 		return 89;
