@@ -17,7 +17,7 @@ public class TestConstructor {
 		
 		public static void main(String a[]) {
 			//TestConstructor();
-			TestConstructor t1=new TestConstructor(1,"abc");
+			TestConstructor t1=new TestConstructor();
 			t1.display();
 		}
 	
