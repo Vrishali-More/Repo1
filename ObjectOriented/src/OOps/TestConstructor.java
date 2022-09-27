@@ -14,11 +14,9 @@ public class TestConstructor {
 	void display() {
 		System.out.println(num+""+name);
 	}
-		public static String TestConstructor() {
-			return"";
-		}
+		
 		public static void main(String a[]) {
-			TestConstructor();
+			//TestConstructor();
 			TestConstructor t1=new TestConstructor(1,"abc");
 			t1.display();
 		}
