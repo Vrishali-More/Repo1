@@ -2,9 +2,10 @@ package oops2;
 // method overloading
 public class Test {
 
-	public Test() {
+	/*public Test() {
 		// TODO Auto-generated constructor stub
 	}
+	*/ 
 	public int add() {
 		return 1;
 	}
