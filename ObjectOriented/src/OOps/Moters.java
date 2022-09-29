@@ -10,7 +10,7 @@ package OOps;
 		System.out.println("auto is running");
 	}
  }
-	class Bike implements Runnable{
+	class Bicycle1 implements Runnable{
 
 		@Override
 		public void run() {
@@ -40,7 +40,7 @@ package OOps;
 	
  public	class Moters{
 	 public static void main(String args[]) {
-		 Runnable obj= new Bike();
+		 Runnable obj= new Bicycle1();
 	obj.run();
 	 }
  }
