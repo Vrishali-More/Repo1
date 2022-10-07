@@ -1,28 +1,29 @@
 package com.kpi.lambda;
 
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.Month;
+import java.util.Calendar;
+import java.util.Date;
 
 
 public class JanuaryDay {
 public static void LocalDateApi1()
 {
-
-	
-	LocalDateTime current=LocalDateTime.now();
-	System.out.println("current date time is :"+current);
 	
 	LocalDate date2 = LocalDate.of(1922, 1, 26);
-	System.out.println("The day is:"+date2);
+	System.out.println("The date is:"+date2);
 	
-	Month month = current.getMonth();
-	int day = current.getDayOfMonth();
-	int seconds = current.getSecond();
-	int hour=current.getHour();
-	int year1=current.getYear();
-	System.out.println("Month: "+month+" day : "+day+" Seconds : "+seconds+" Hour : "+hour+" Year : "+year1);
+	Calendar cal= Calendar.getInstance();
+	cal.set(Calendar.YEAR,1922);
+	cal.set(Calendar.MONTH,26);
+	cal.set(Calendar.DAY_OF_MONTH,1);
+	Date df=cal.getTime();
+	DateFormat dff = new SimpleDateFormat("EEEEEE");
+	String day = dff.format(df);
+	System.out.println("The day is:"+day);
+	
 	
 	
 } 
