@@ -1,4 +1,4 @@
-package com.kpi.lambda;
+package oops4;
 
 public class Student {
 

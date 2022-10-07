@@ -1,4 +1,4 @@
-package com.kpi.lambda;
+package oops4;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
