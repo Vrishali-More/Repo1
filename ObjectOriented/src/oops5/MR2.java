@@ -1,4 +1,4 @@
-package com.kpi;
+package oops5;
 
 public class MR2 {
 

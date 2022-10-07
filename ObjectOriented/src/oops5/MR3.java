@@ -1,4 +1,4 @@
-package com.kpi;
+package oops5;
 import java.util.function.BiFunction;
 class Arithmetic{
 	public int add(int a , int b) {
